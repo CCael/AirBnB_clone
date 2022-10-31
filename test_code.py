@@ -12,7 +12,7 @@ echo "python3 -m unittest discover tests" | bash
 [ "$(echo -n $?)" == "0" ] && echo -ne "\e[100m\e[32m PASSED "
 echo -e "\e[0m"
 
-## Python code style checks
+## Python code style check
 echo -e "\e[104m Running Style Checks \e[0m\e[31m"
 Src_Files="$(find . -type f -regex '.*.py' | tr '\n' ' ')"
 # shellcheck disable=SC2086

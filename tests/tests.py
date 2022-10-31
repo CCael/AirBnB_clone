@@ -6,8 +6,10 @@ TestStringMethods
 
 
 class TestStringMethods(unittest.TestCase):
+
     """tests
     """
+
     def test_upper(self)
     self.assertEqual('foo'.upper(), 'FOO')
 
